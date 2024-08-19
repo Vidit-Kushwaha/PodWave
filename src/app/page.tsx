@@ -3,6 +3,7 @@ import { MultiStepLoader } from "@/components/multi-step-loader";
 import PodcastPlayer from "@/components/player/PodcastPlayer";
 import { SearchBar } from "@/components/SearchBar";
 import { WavyBackground } from "@/components/WaveBackground";
+import { URL } from "@/config";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -28,7 +29,7 @@ const Home = ({
     setLoading(true);
 
     try {
-      await fetch(`/api/podcast`, {
+      await fetch(`${URL}/api/podcast`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
