@@ -1,9 +1,10 @@
-
-
 # PodWave
-Podwave is an innovative podcast platform that offers seamless podcast creation, playback, and sharing experiences. It allows users to generate and manage podcasts with ease, featuring customizable playback controls, transcript synchronization, and more.
 
 ![podwave page](https://i.ibb.co/QXPxg03/image.png)
+
+## What is Podwave?
+Podwave is an innovative podcast platform that offers seamless podcast creation, playback, and sharing experiences. It allows users to generate and manage podcasts with ease, featuring customizable playback controls, transcript synchronization, and more.
+
 
 ## Table of Contents
 
@@ -27,9 +28,10 @@ Podwave is an innovative podcast platform that offers seamless podcast creation,
 
 ## Features 
 
-- Blazing-fast performance with serverless functions
-- Secure user authentication with iron-session
-- Rich content creation with Markdown
+- **AI-Generated Content:** Automatically generate podcast scripts using AI for a wide range of topics.
+- **Custom Playback Controls:** Play, pause, and skip audio with intuitive controls.
+- **Interactive Seekbar:** Seek through episodes with a responsive and precise seekbar.
+- **Cloud Storage Integration:** Store and retrieve podcast files from cloud storage (Google Cloud Storage).
 
 ##  Get Started
 
