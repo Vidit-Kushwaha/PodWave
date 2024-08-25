@@ -8,11 +8,12 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const loadingStates = [
-  { text: "Loading Podcast", value: 0 },
-  { text: "Generating Audio", value: 1 },
-  { text: "Transcribing Audio", value: 2 },
-  { text: "Analyzing Sentiment", value: 3 },
-  { text: "Generating Summary", value: 4 },
+  { text: "Generating Script", value: 0 },
+  { text: "Analyzing Sentiment", value: 1 },
+  { text: "Generating Summary", value: 2 },
+  { text: "Transcribing Audio", value: 3 },
+  { text: "Finalizing Podcast", value: 4 },
+  { text: "Loading Podcast", value: 5 },
 ];
 const Home = ({
   searchParams,
@@ -58,7 +59,7 @@ const Home = ({
     <>
       <MultiStepLoader
         loadingStates={loadingStates}
-        duration={3000}
+        duration={5000}
         loading={loading}
         loop={false}
       />
@@ -73,6 +74,7 @@ const Home = ({
               "Mindful Minutes",
               "Culture Clash",
               "The Future of Work",
+              "The Future of Education",
             ]}
             onSubmit={onSubmit}
             onChange={onChange}

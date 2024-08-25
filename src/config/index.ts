@@ -1,5 +1,5 @@
 const NODE_ENV = process.env.NODE_ENV || "development";
-const URL = process.env.SERVER_URL || "https://podcast.viditkushwaha.com";
+const URL = process.env.URL || "https://podwavebackend.onrender.com";
 const INTRO_OUTRO_WORD_COUNT = 100;
 const DEFAULT_PARAGRAPH_LENGTH = 100;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEYS || "your-openai-api-key";
